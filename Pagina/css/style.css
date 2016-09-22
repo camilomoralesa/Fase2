@@ -1,0 +1,187 @@
+
+/*font-family: 'David Libre', serif;
+font-family: 'Pavanam', sans-serif;*/
+/*font-family: 'Libre Franklin', sans-serif;*/
+#contenidos
+{
+	width: 1000px; /*asina un ancho de 1000px a la pagina */
+	height: auto; /*asigna un alto autopatico para que amedida que se ingrese informacion se vaya expandiendo*/
+	margin: auto;/*margen automatico*/
+	position: relative;
+	
+}
+#logo1
+{
+    -moz-transform: translate(-200px, 0px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(-200px, 0px);/*trasnlada la imagen de posicion*/
+}
+
+#logo2
+{
+	-moz-transform: translate(-200px, -90px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(-200px, -90px);/*trasnlada la imagen de posicion*/
+}
+#logo3
+{
+    -moz-transform: translate(180px, 0px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(180px, 0px);/*trasnlada la imagen de posicion*/
+
+}
+
+#fuente3
+{
+    -moz-transform: translate(0px, 80px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(0px, 80px);/*trasnlada la imagen de posicion*/
+
+}
+
+#h1
+{
+    -moz-transform: translate(0px, 40px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(0px, 40px);/*trasnlada la imagen de posicion*/
+
+}
+
+#h2
+{
+    -moz-transform: translate(0px, 60px);/*trasnlada la imagen de posicion*/
+	-webkit-transform: translate(0px, 60px);/*trasnlada la imagen de posicion*/
+
+}
+
+#menu li
+	{
+		 
+
+		color: white;
+		float: left; /*alinear todos los elementos del menu a la izquierda de forma horizontal*/
+		list-style-type: none; /*con esta propiedad hace que no tome los elementos lista como lista sino como menu*/
+		padding: 10px; /*espacio entre los elementos de la lista mostrados como menu*/
+		background: #F2880D;
+		margin: 3px; /*margen de 3px para el menu*/
+		border-radius: 10px; /*hacer que las esquinas se vean redondeadas*/
+		box-shadow: 0 0 10px white inset; /*sombra a los botones, puede ser inset o outset*/
+		font: bold 15px italic, sans-serif;/*letra negrita de x pixeles*/
+	}
+
+
+
+/*creando etiquetas*/
+body
+{
+	background-image: url(../img/Fondo2.png); /*imagenes de fondo se deben declarar como url*/
+	background-repeat: no-repeat; /*para que la imagen no se repita si la resolucion es muy grande*/
+	background-size: cover; /*para que la imagen se ajuste al tamaño de la pantalla*/
+}
+
+h1
+{
+	color: #006680;
+	font-family: 'Libre Franklin', sans-serif; /*tipo de letra que voy a utilizar en el titulo h1*/
+	margin-left: 10px;/*margen de 10px para el titulo 1 a la derecha*/
+	font-size: 30px; /*tamaño de la fuente*/
+	text-align: center; /*alinear el texto al centro*/
+
+}
+
+h2
+{
+	color: #006680;
+	font-family: 'Pavanam', sans-serif; /*tipo de letra que voy a utilizar en el titulo h2*/
+	margin-left: 10px;/*margen de 10px para el titulo 1 a la derecha*/
+	font-size: 20px; /*tamaño de la fuente*/
+	text-align: left; /*alinear el texto al centro*/
+}
+h3
+{
+	color: #006680;
+	font: Angsana, cursive;
+	font-size: 10px; /*tamaño de la fuente*/
+	text-align: center; /*alinear el texto al centro*/
+}
+
+header
+{
+	width: 1000px; /*ancho del header de 1000px*/
+	height: 120px; /*alto del header de 120 px*/
+	background: rgba(255,255,255 3,5); /*genera una transparecia en el fondo del header*/
+	margin-bottom: 20px;
+}
+
+nav
+{
+	width: 1000px;/*ancho del nav de 1000px*/
+	height: 60px; /*alto del nav de 120 px*/
+	background: #B3B3B3;
+	border-radius: 10px; /*hacer que las esquinas se vean redondeadas*/
+}
+ul
+{
+margin: auto; /*margen automatica*/
+padding-top: 4px; /*separacion entre los elementos de la lista lista*/
+}
+li
+{
+	float: left; /*alinear todos los elementos del menu a la izquierda de forma horizontal*/
+	list-style-type: none; /*con esta propiedad hace que no tome los elementos lista como lista sino como menu*/
+	padding: 10px; /*espacio entre los elementos de la lista mostrados como menu*/
+	background: black;
+	margin: 3px; /*margen de 3px para el menu*/
+	border-radius: 10px; /*hacer que las esquinas se vean redondeadas*/
+	box-shadow: 0 0 10px white inset; /*sombra a los botones, puede ser inset o outset*/
+}
+
+/*creando css para la section*/
+
+section
+{
+	width: 700px; /*ancho para la section*/
+	/*background: gray;*/
+	height: 600px; /*alto para la section*/
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside
+{
+	width: 280px; /*ancho para el aside sumado el de section*/
+	/*background: white;*/
+	height: 600px;/*alto para aside igual que el de section*/
+	float: left;
+	margin-left: 20px; /*separacio entre el section y el aside completando los 1000px del contenedor*/
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+footer
+{
+	width: 1000px;  /*ancho para el footer debe ser igual al tamaño del contenedor*/
+	height: 110px; /*alto para el footer el tamaño depende de lo que voy a montar*/
+	/*background: maroon;*/
+	float: left;
+	margin-top: 20px; /*margen superior*/
+	border-radius: 10px;
+	margin-bottom: 20px;/*para darle un espacio despues del footer*/
+}
+
+p/*configuracion para el parrafo*/
+{
+	font-size: 15px; /*tamaño de la fuente para el parrafo*/
+	font-weight: bolder;
+	line-height: 24px; /*espacio entre lineas*/
+	padding: 10px;
+	text-align: justify; /*justificar el texto*/
+
+}
+
+/*creando etiquetas*/
+
+.ancho_menu_home{width: 900px}/**/
+.ancho_menu_paginas{width: 970px}
+
+
+
+
+
+
+
